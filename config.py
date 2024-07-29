@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://dusra:sLwO6AhOgadMNHL5@dusra.r7gkttx.mongodb.net/?retryWrites=true&w=majority&appName=dusra"
 DB_NAME = os.environ.get("DATABASE_NAME", "dusra")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://zipshort.net/")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://zipshort.net")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "a5944ed27ace38af1d9d0c80e27a44065906f3c3")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/sumaira_khan_howtoopenlink/36")
 
 
 #force sub channel id, if you want enable force sub
